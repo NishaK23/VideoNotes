@@ -1,0 +1,31 @@
+# Recommended: Python 3.11
+# Install FFmpeg separately; yt-dlp and pydub use the FFmpeg executable.
+
+# YouTube and audio processing
+yt-dlp>=2024.4.9
+pydub>=0.25.1
+
+# Local speech transcription
+openai-whisper>=20231117
+torch>=2.2.0
+
+# Hinglish speech-to-English transcription (Sarvam API)
+requests>=2.32.0
+
+# LLM orchestration and Groq
+langchain-core>=0.2.0
+langchain-groq>=0.1.0
+langchain-text-splitters>=0.2.0
+
+# RAG, embeddings and vector database
+langchain-chroma>=0.1.0
+langchain-huggingface>=0.0.3
+chromadb>=0.5.0
+sentence-transformers>=3.0.0
+
+# Streamlit interface and environment variables
+streamlit>=1.40.0
+python-dotenv>=1.0.0
+
+# Compatibility for pydub on Python 3.13+
+audioop-lts>=0.2.2; python_version >= "3.13"

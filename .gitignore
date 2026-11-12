@@ -1,0 +1,23 @@
+
+# API keys
+.env
+
+# Python environments
+.venv/
+.venv_clean/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# VS Code settings
+.vscode/
+
+# Generated files
+downloads/
+vector_db/
+video_library/
+
+# Temporary files
+*.tmp
+.ipynb_checkpoints/
