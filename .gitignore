@@ -21,3 +21,5 @@ video_library/
 # Temporary files
 *.tmp
 .ipynb_checkpoints/
+
+notes/
